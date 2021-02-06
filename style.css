@@ -1,0 +1,96 @@
+body {
+  font-family: 'Lemonada', cursive;
+  color: black;
+  font-size: 18px;
+}
+
+h1, h2, h3 /*{
+  font-family: Chivo;
+}
+*/
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: #351F39;
+}/* Write some CSS below */
+
+.card-white {
+	background-color: #E9B0DF;
+
+}
+
+.banner {
+	background-color: #FBACCC;
+	background-size: cover;
+	background-image: url('https://moneycrashers-sparkchargemedia.netdna-ssl.com/wp-content/uploads/2018/12/new-years-resolutions-smart-goals.jpg');
+	padding: 150px 20px;
+	text-align: right;
+}
+.footer {
+	background-color: #FF9292;
+	text-align: center;
+}
+.btn-green {
+	background-color: blue;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+	display: inline-block;
+	text-decoration: none;
+	transition: .3s;
+}
+.card-white {
+	background-color: white;
+	box-shadow: 1px 1px 10px rgba(0,0,0,1);
+	border-radius: 3px;
+	text-align: center;
+	width: 360px;
+	margin: 0 auto;
+}
+.card-white img {
+	width: 300px;
+}
+.banner-text {
+	color: white;
+}
+.banner-text2 {
+	color: white;
+}
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+/*cards media queries*/
+@media (max-width: 800px) {
+	.cards {
+		grid-template-columns: 1fr;
+	}
+	.card-white {
+		width: auto;
+	}
+}
+
+/* Container media queries */
+/*@media (min-width: 500px) {
+  .container {
+    width: 400px;
+	}
+}
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+*/
